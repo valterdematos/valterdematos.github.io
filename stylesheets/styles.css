@@ -28,6 +28,10 @@ h2 {
   color:#393939;
 }
 
+h2 a.anchor {
+  padding-top:80px;
+}  
+
 h3, h4, h5, h6 {
   color:#494949;
 }
