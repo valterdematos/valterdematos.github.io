@@ -1,0 +1,94 @@
+.dashboard-tabs
+{
+	background-color: #eaeaea;
+	background-image: linear-gradient(#fafafa, #eaeaea);
+	background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+	background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+	background-repeat: repeat-x;
+	border: 1px solid #eaeaea;
+	border-bottom-color: #cacaca;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 100px;
+	padding-left: 0;
+	position: relative;
+}
+.dashboard-tabs li
+{
+	display: table-cell;
+	list-style-type: none;
+	margin: 0;
+	width: 1%;
+}
+.dashboard-tabs li:first-child a
+{
+	border-bottom-left-radius: 3px;
+	border-left: none;
+}
+.dashboard-tabs li:first-child a:hover,.dashboard-tabs li:first-child a.selected
+{
+	border-top-left-radius: 3px;
+}
+.dashboard-tabs li:last-child a
+{
+	border-bottom-right-radius: 3px;
+	border-right: none;
+}
+.dashboard-tabs li:last-child a:hover,.dashboard-tabs li:last-child a.selected
+{
+	border-top-right-radius: 3px;
+}
+.dashboard-tabs a
+{
+	border-bottom: 2px solid #DADADA;
+	border-left: 1px solid #fcfcfc;
+	border-left-color: rgba(255,255,255,0.7);
+	border-right: 1px solid #eee;
+	border-right-color: rgba(0,0,0,0.04);
+	color: #777;
+	display: block;
+	font-size: 12px;
+	line-height: 35px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+}
+.dashboard-tabs a:hover
+{
+	background-color: #dce6ef;
+	background-image: linear-gradient(#fafbfd, #dce6ef);
+	background-image: -moz-linear-gradient(#fafbfd, #dce6ef);
+	background-image: -webkit-linear-gradient(#fafbfd, #dce6ef);
+	background-repeat: repeat-x;
+	border-bottom: 2px solid #CFDCE8;
+	color: #4183c4;
+}
+.dashboard-tabs a.selected,.dashboard-tabs a.selected:hover
+{
+	background-color: #ebebeb;
+	background-image: linear-gradient(#fcfcfc, #ebebeb);
+	background-image: -moz-linear-gradient(#fcfcfc, #ebebeb);
+	background-image: -webkit-linear-gradient(#fcfcfc, #ebebeb);
+	background-repeat: repeat-x;
+	border-bottom: 2px solid #D26911;
+	color: #000;
+}
+.dashboard-tabs a .counter
+{
+	background: #fff;
+	border-radius: 8px;
+	border-top: 1px solid #ccc;
+	color: #777;
+	display: inline-block;
+	font-family: Helvetica, arial, freesans, clean, sans-serif;
+	font-size: 10px;
+	height: auto;
+	line-height: 14px;
+	margin: 0 0 0 5px;
+	padding: 0 8px 1px 8px;
+	position: relative;
+	text-align: center;
+	top: -1px;
+	vertical-align: text-top;
+}
