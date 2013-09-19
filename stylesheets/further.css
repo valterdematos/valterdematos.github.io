@@ -10,7 +10,7 @@
 	border-radius: 3px;
 	font-size: 12px;
 	font-weight: bold;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	padding-left: 0;
 	position: relative;
 }
@@ -71,7 +71,7 @@
 	background-image: -moz-linear-gradient(#fcfcfc, #ebebeb);
 	background-image: -webkit-linear-gradient(#fcfcfc, #ebebeb);
 	background-repeat: repeat-x;
-	border-bottom: 2px solid #D26911;
+	border-bottom: 2px solid #4183C4;
 	color: #000;
 }
 .dashboard-tabs a .counter
