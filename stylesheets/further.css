@@ -92,3 +92,32 @@
 	top: -1px;
 	vertical-align: text-top;
 }
+.flash, .flash-global {
+	position: relative;
+	border: 1px solid #97C1DA;
+	color: #264C72;
+	background-color: #D0E3EF;
+	background-image: -moz-linear-gradient(#d8ebf8, #d0e3ef);
+	background-image: -webkit-linear-gradient(#D8EBF8, #D0E3EF);
+	background-image: linear-gradient(#D8EBF8, #D0E3EF);
+	background-repeat: repeat-x;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	}
+.flash-messages {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+.flash {
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	}
+.flash.flash-warn, .flash-global.flash-warn {
+	color: #613A00;
+	background-color: #F5DAC0;
+	background-image: -moz-linear-gradient(#ffe3c8, #f5dac0);
+	background-image: -webkit-linear-gradient(#FFE3C8, #F5DAC0);
+	background-image: linear-gradient(#FFE3C8, #F5DAC0);
+	background-repeat: repeat-x;
+	border-color: #DCA874;
+	}
