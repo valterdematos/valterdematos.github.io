@@ -1,3 +1,7 @@
+caption {
+	text-align:right;
+	border-bottom:1px solid #E5E5E5;
+	}
 .dashboard-tabs
 {
 	background-color: #eaeaea;
@@ -120,4 +124,37 @@
 	background-image: linear-gradient(#FFE3C8, #F5DAC0);
 	background-repeat: repeat-x;
 	border-color: #DCA874;
+	}
+.button, .minibutton {
+	position: relative;
+	display: inline-block;
+	padding: 7px 15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+	white-space: nowrap;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	border-bottom-color: #C5C5C5;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-appearance: none;
+	}
+.button.blue, .button.blue:hover, .minibutton.blue, .minibutton.blue:hover {
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #3072B3;
+	background-image: -moz-linear-gradient(#599bcd, #3072b3);
+	background-image: -webkit-linear-gradient(#599BCD, #3072B3);
+	background-image: linear-gradient(#599BCD, #3072B3);
+	background-repeat: repeat-x;
+	border-color: #2A65A0;
 	}
