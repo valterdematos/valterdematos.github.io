@@ -30,6 +30,8 @@ h2 {
 
 h2 a.anchor {
   padding-top:80px;
+  display:inline-block;
+  border:none;
 }  
 
 h3, h4, h5, h6 {
